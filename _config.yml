@@ -36,17 +36,17 @@ llauna: 2.0
 dilluns: de 19h a 23h
 dimdium: De 13h a 16h / de 19h a 23h
 
-# BONROLLO ARENAS
-city: Arenas
-location: C/ Gran Vía Les Corts 373, centre Comercial Arenas, Barcelona
-phone: +34 931 18 98 27
-email: bonrollo.arenas@gmail.com
-
 # BONROLLO BADALONA
-city2: Badalona
-location2: C/ Sant Josep, 08911 Badalona, Barcelona
-phone2: +34 930 10 25 64
-email2: bonrollo.badalona@gmail.com
+city: Badalona
+location: C/ Sant Josep, 08911 Badalona, Barcelona
+phone: +34 930 10 25 64
+email: bonrollo.badalona@gmail.com
+
+# BONROLLO ARENAS
+city2: Arenas
+location2: C/ Gran Vía Les Corts 373, centre Comercial Arenas, Barcelona
+phone2: +34 931 18 98 27
+email2: bonrollo.arenas@gmail.com
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/36928139?s=460&v=4
