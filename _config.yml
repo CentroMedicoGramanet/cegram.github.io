@@ -1,5 +1,5 @@
 # Name of your site (displayed in the header)
-name: BONROLLO ARENAS
+name: BONROLLO BADALONA
 
 # Short bio or description (displayed in the header)
 description: Take Away de qualitat
@@ -56,10 +56,10 @@ logo: ./hipertextos/brand/bonrollo.svg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: bonrollo.arenas@gmail.com
-  facebook: BONROLLOARENAS
-  instagram: bonrolloarenas
-  twitter: bonrolloarenas
+  email: bonrollo.badalona@gmail.com
+  facebook: BONROLLOBADALONA
+  instagram: bonrollobadalona
+  twitter: bonrollobadalona
   linkedin:
   pinterest:
   youtube:
@@ -80,7 +80,7 @@ google_analytics: UA-71360606-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.bonrollobarcelona.com
+url: http://www.bonrollo.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
