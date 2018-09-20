@@ -72,7 +72,7 @@ padding-left:32px;padding-right:32px;padding-top:6px;color:var(--color-softgrey)
 #mapa h4 {color:var(--color-soft);font-size: 21px;line-height: 21px}
 #mapa h4 div img {float:none;	height: 30px;);margin: -.25em .5em -.25em -.5em;width: 30px; }
 #mapa h4 .red {background:var(--color-red);}
-#mapa h4 .green {background:var(--color-green);}
+#mapa h4 .violet {background:var(--color-violet);}
 #mapa h4 div {display:inline;padding-left:12px;padding-right:12px;border-radius:3px;color:var(--color-soft);}
 
 /* Footer */ 
