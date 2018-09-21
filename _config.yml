@@ -10,30 +10,20 @@ terra: Receptes de la terra de tota la vida.
 
 premis: 1r Premi Just Eat al millor restaurant a domicili de la Temporada 2017 (premi otorgat pel públic)
 
-postalcode1: 08015
-postalcode2: 08011
-postalcode3: 08004
-postalcode4: 08036
-postalcode5: 08029
-postalcode6: 08008
-postalcode7:
-postalcode8:
-postalcode9:
-
-
 # Preus
-rollitos: 7.5
+rollitos: 6.5
+rollitos2: 6.5
 petit: 6.0
 pures: 4.5
 cremes: 4.5
-amanides: 4.5
-postres: 4.5
-menu: 12.5
-aigua: 2.0
-llauna: 2.0
+amanides: 3.5
+postres: 3.0
+menu: 11
+aigua: 1.0
+llauna: 1.5
 
 # Horari
-dilluns: de 19h a 23h
+dilluns: de 13h a 16h / de 19h a 23h
 dimdium: De 13h a 16h / de 19h a 23h
 
 # BONROLLO BADALONA
@@ -52,6 +42,26 @@ email2: bonrollo.arenas@gmail.com
 avatar: https://avatars0.githubusercontent.com/u/36928139?s=460&v=4
 logo: ./hipertextos/brand/bonrollo.svg
 
+postalcode1: 08911
+postalcode2: 08912
+postalcode3: 08913
+postalcode4: 08914
+postalcode5: 08915
+postalcode6: 08917
+postalcode7: 08918
+postalcode8: 08922
+postalcode9: 08923
+postalcode10: 08930
+postalcode11: 08390
+postalcode12: 08391
+postalcode13:
+postalcode14:
+postalcode15:
+postalcode16:
+postalcode17:
+postalcode18:
+postalcode19:
+postalcode20:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
