@@ -1,75 +1,43 @@
 # Name of your site (displayed in the header)
-name: BONROLLO BADALONA
+name: Name Corp
 
 # Short bio or description (displayed in the header)
-description: Take Away de qualitat
+description: Descripció curta del Web Site
 
 alternativa: Una alternativa saludable al menjar ràpid.
 natural: Cuina amb amor, amb productes naturals i de proximitat.
 terra: Receptes de la terra de tota la vida.
 
-premis: 1r Premi Just Eat al millor restaurant a domicili de la Temporada 2017 (premi otorgat pel públic)
-
-# Preus
-rollitos: 6.5
-rollitos2: 6.5
-petit: 6.0
-pures: 4.5
-cremes: 4.5
-amanides: 4.5
-postres: 3.0
-menu: 11€
-aigua: 1.0
-llauna: 1.5
+premis: Text Destacat per a la pagina principal
 
 # Horari
 dilluns: de 13h a 16h
 dimdium: De 13h a 16h / de 19h a 23h
 
-# BONROLLO BADALONA
-city: Badalona
-location: C/ Sant Josep, 08911 Badalona, Barcelona
-phone: +34 930 10 25 64
-email: bonrollo.badalona@gmail.com
+# Seu Principal
+city: Ciutat
+location: C/ nom del carrer, 08911 Població, Ciutat
+phone: +34 933 80 00 00
+email: correu@gmail.com
 
-# BONROLLO ARENAS
+# Seu Alternativa
 city2: Arenas
-location2: C/ Gran Vía Les Corts 373, centre Comercial Arenas, Barcelona
-phone2: +34 931 18 98 27
-email2: bonrollo.arenas@gmail.com
+location2: C/ nom del carrer, 08911 Població, Ciutat
+phone2: +34 933 80 00 01
+email2: correu2@gmail.com
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/36928139?s=460&v=4
 logo: ./hipertextos/brand/bonrollo.svg
 
-postalcode1: 08911
-postalcode2: 08912
-postalcode3: 08913
-postalcode4: 08914
-postalcode5: 08915
-postalcode6: 08917
-postalcode7: 08918
-postalcode8: 08922
-postalcode9: 08923
-postalcode10: 08930
-postalcode11: 08390
-postalcode12: 08391
-postalcode13:
-postalcode14:
-postalcode15:
-postalcode16:
-postalcode17:
-postalcode18:
-postalcode19:
-postalcode20:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: bonrollo.badalona@gmail.com
-  facebook: BONROLLOBADALONA
-  instagram: bonrollobadalona
-  twitter: bonrollobadalona
+  email: xxx@gmail.com
+  facebook: Fa
+  instagram: In
+  twitter: Tw
   linkedin:
   pinterest:
   youtube:
@@ -86,11 +54,11 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-71360606-1
+google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.bonrollo.com
+url: http://www.weburl.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
