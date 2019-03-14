@@ -1,12 +1,16 @@
 			<nav id="site-nav" class="nav-smart">
 				<div>
-					<a class="site-logo" href="{{ site.baseurl }}/" title="BONROLLO: Inici"><i class="icon-flickr"></i></a>
+					<a class="site-logo" href="{{ site.baseurl }}/" title="{{ site.name }}: Inici"><i class="{{ site.icon }}"></i></a>
 					<input type="checkbox" id="mobnav" name="mobnav" aria-hidden="true" hidden> 
 					<strong><label for="mobnav">Menú<mark></mark></label></strong>
 					<div hidden>
-						<a href="{{ site.baseurl }}/" title="Volver al Inicio"><b><img src=".{{ site.logo }}" alt="BONROLLO logo">{{ site.city }}</b></a>
-						<a href="{{ site.baseurl }}/carta" title="Carta i menús">Carta</a>
-						<a href="{{ site.baseurl }}/contacte/" title="Sobre nosaltres">Contacte</a>
+						<a href="{{ site.baseurl }}/" title="Volver al Inicio"><b>{{ site.name }}</b></a>
+						{% if site.section1 %}<a href="{{ site.baseurl }}/{{ site.section1 }}" title="{{ site.section1d }}">{{ site.section1 }}</a>{% endif %}
+						{% if site.section2 %}<a href="{{ site.baseurl }}/{{ site.section2 }}/" title="{{ site.section2d }}">{{ site.section2 }}</a>{% endif %}
+						{% if site.section3 %}<a href="{{ site.baseurl }}/{{ site.section3 }}" title="{{ site.section3d }}">{{ site.section3 }}</a>{% endif %}
+						{% if site.section4 %}<a href="{{ site.baseurl }}/{{ site.section4 }}/" title="{{ site.section4d }}">{{ site.section4 }}</a>{% endif %}
+						{% if site.section5 %}<a href="{{ site.baseurl }}/{{ site.section3 }}" title="{{ site.section3d }}">{{ site.section5 }}</a>{% endif %}
+						{% if site.section6 %}<a href="{{ site.baseurl }}/{{ site.section4 }}/" title="{{ site.section4d }}">{{ site.section6 }}</a>{% endif %}
 					</div>
 				 </div>
 			</nav>

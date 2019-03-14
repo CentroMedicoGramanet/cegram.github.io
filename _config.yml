@@ -8,6 +8,8 @@ alternativa: Una alternativa saludable al menjar ràpid.
 natural: Cuina amb amor, amb productes naturals i de proximitat.
 terra: Receptes de la terra de tota la vida.
 
+icon: icon-heart
+
 premis: Text Destacat per a la pagina principal
 
 # Horari
@@ -15,13 +17,13 @@ dilluns: de 13h a 16h
 dimdium: De 13h a 16h / de 19h a 23h
 
 # Seu Principal
-city: Ciutat
+city: Ciutat Pral.
 location: C/ nom del carrer, 08911 Població, Ciutat
 phone: +34 933 80 00 00
 email: correu@gmail.com
 
 # Seu Alternativa
-city2: Arenas
+city2: Ciutat Alt.
 location2: C/ nom del carrer, 08911 Població, Ciutat
 phone2: +34 933 80 00 01
 email2: correu2@gmail.com
@@ -29,6 +31,20 @@ email2: correu2@gmail.com
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/36928139?s=460&v=4
 logo: ./hipertextos/brand/bonrollo.svg
+
+# Sections
+section1: section1
+section1d: section1 Alt text
+section2: section2
+section2d: section2 Alt text
+section3: section3
+section3d: section2 Alt text
+section4:
+section4d:
+section5:
+section5d:
+section6:
+section6d:
 
 
 # Includes an icon in the footer for each username you enter
