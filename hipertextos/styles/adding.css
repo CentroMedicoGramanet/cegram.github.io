@@ -71,12 +71,13 @@ padding-left:32px;padding-right:32px;padding-top:6px;color:var(--color-softgrey)
 #foot-cover.cover {width:100%;	height: 400px;padding-top:50px;color:var(--color-white);}
 #foot-cover.cover svg {float:none;text-align: center;width:30px;}
 
-#mapa {padding-top:1px;color:var(--color-hardgrey);}
-#mapa h4 {color:var(--color-soft);font-size: 21px;line-height: 21px}
+#mapa {padding-top:0px;color:var(--color-hardgrey);
+	border-top:6px solid var(--color-blue);border-bottom:6px solid var(--color-blue);}
+#mapa h4 {color:var(--color-softgry);font-size: 21px;line-height: 21px;}
 #mapa h4 div img {float:none;	height: 30px;);margin: -.25em .5em -.25em -.5em;width: 30px; }
-#mapa h4 .red {background:var(--color-red);}
-#mapa h4 .violet {background:var(--color-violet);}
+#mapa h4 .red {background:var(--color-red);margin-left:12px;}
 #mapa h4 div {display:inline;padding-left:12px;padding-right:12px;border-radius:3px;color:var(--color-soft);}
+#mapa .cited {border:thin solid var(--color-softgrey);max-width:80%;margin-left:10%;border-radius:12px;}
 
 /* Footer */ 
 #page-footer {background:#222;color:#999;box-shadow: inset 0 0 56px rgba(0, 0, 0, .32);bottom: 0px;width: 100%;}
