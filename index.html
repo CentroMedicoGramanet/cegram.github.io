@@ -11,7 +11,11 @@ topmap: yes
 {% if page.topmap %}
 	<div id="mapa">
   		{% include mapa.html %}
-  		<label for="theme-soft" id="label-light" data-title="Light theme" title="Modo claro" class="expand anm-zoomIn delay-1000"><b>&DownTeeArrow;</b></label>
+  		<nav class="nav-scroll anm-moveFromLeftFade">
+			<div>
+  				<label for="theme-soft" id="label-light" data-title="Light theme" title="Modo claro" class="expand anm-zoomIn delay-1000"><b>&DownTeeArrow;</b></label>
+  			</div>
+  		</nav>
   		<input type="radio" id="theme-light" name="theme" aria-hidden="true" hidden>
 		<input type="radio" id="theme-soft" name="theme" aria-hidden="true" hidden>
 		<input type="radio" id="theme-dark" name="theme" aria-hidden="true" hidden>

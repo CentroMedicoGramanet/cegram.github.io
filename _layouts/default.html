@@ -50,6 +50,19 @@
 		{% endif %}
     {% include partials/footer.html %}
 	</div>
+
+	<!-- Tools switcher -->  		
+  	<div id="tools-switcher">
+  		<label for="tools-check" data-title="Modos" class="pophover">+</label>
+  	</div>
+	<!-- Tools nav -->
+	<input type="checkbox" id="tools-check" name="Modos" aria-hidden="true" hidden>
+	<nav id="tools-nav">
+		<label for="tools-check" id="label-tools" data-title="Cerrar" class="pophover">x</label>
+		<label for="theme-dark" id="label-dark" data-title="Modo Oscuro" class="pophover"></label>
+		<label for="theme-soft" id="label-soft" data-title="Modo Rojo" class="pophover"></label>
+		<label for="theme-light" id="label-light" data-title="Modo Claro" class="pophover"></label>
+	</nav>
 	
     <!-- Scripts
     ================================================== -->
