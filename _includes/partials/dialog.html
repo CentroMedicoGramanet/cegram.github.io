@@ -5,8 +5,10 @@
 		<dialog>
 				<label for="modal-two">x</label>
 			<header>
-				<h2><i class="icon-calendar"></i>Quedem?<h2>
-				<h6 class="lead">Estic disponible a través de:</h6>
+				<section class="cited">
+					<h2><small>{{ site.location }}</small></h2>
+					<h4><div><img src="{{ site.baseurl }}/hipertextos/brand/iconmetro.png" alt="Metro"></div> Santa Coloma <div class="red">L1</div></h4>
+				</section>
 			</header>
 			<div>
 			{% include mapa.html %}
