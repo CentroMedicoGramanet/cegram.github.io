@@ -1,18 +1,8 @@
-	<div id="dialog">
+    <div class="jdialog closed" id="dialog">
 	<div>
-		<input id="modal-two" type="checkbox" hidden>
-		<label class="overlay" for="modal-two" hidden></label>
 		<dialog>
-				<label for="modal-two">x</label>
-			<header>
-				<section class="cited">
-					<h2><small>{{ site.location }}</small></h2>
-					<h4><div><img src="{{ site.baseurl }}/hipertextos/brand/iconmetro.png" alt="Metro"></div> Santa Coloma <div class="red">L1</div></h4>
-				</section>
-			</header>
-			<div>
+			<a class="button-close" href="#dialog">X</a></section>
 			{% include mapa.html %}
-			</div>
 		</dialog>
 	</div>
 	</div>
