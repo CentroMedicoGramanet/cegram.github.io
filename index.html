@@ -3,10 +3,16 @@ layout: default
 home: true
 txtlogo: true
 imglogo: true
+topmap: yes
 
 ---
 
-  	{% include partials/head.html %}  	
+{% include partials/head.html %}
+{% if page.topmap %}
+	<div id="mapa">
+  		{% include mapa.html %} 
+	</div>
+{% endif %}
 <main id="page-main" role="main">
 	<div id="layout">
 		<div id="alternativa">
@@ -29,6 +35,6 @@ imglogo: true
 		<hr class="lines">
 	</div>
 </main>
-		<div id="justeat">
-  			{% include premis.html %} 
-		</div>
+<div id="justeat">
+	{% include premis.html %} 
+</div>

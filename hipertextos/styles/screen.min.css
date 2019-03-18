@@ -1995,8 +1995,8 @@ nav strong label mark {
 	padding-top:180px;
 }
 .cover {
-	height: 80vh;
-	padding-top: 200px;
+	height: 65vh;
+	padding-top:46px;
 }
 .sticky-header {
 	background-color: #fff;
@@ -2711,4 +2711,5 @@ dialog,
 }
 
 #site-logo a:visited {color:var(--color-white)!important;}
+
 
