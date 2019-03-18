@@ -91,8 +91,9 @@ padding-left:32px;padding-right:32px;padding-top:6px;color:var(--color-softgrey)
 #page-footer p {}
 
 /* Modal expander */
-#mapa a.button-modal {background-color:var(--color-blue);padding:16px 19px 16px 19px;border-radius:32px;
-    width:172px;height:172px;}
+#mapa a.button-modal {background-color:var(--color-blue);padding:28px 18px 15px 17px;border-radius:50px;
+    width:52px;height:52px;}
+#mapa a.button-modal img {max-width:32px;}
 #mapa iframe {margin-bottom:12px;}
 div.jdialog {background-color:var(--color-black);color:var(--color-white);opacity:0.94;
     font-weight:lighter ;letter-spacing: 0.069em; }
@@ -107,9 +108,9 @@ div.jdialog p a:hover { background-color:var(--color-softblack);
     border-color:var(--color-grey);color:var(--color-white);padding: }
 section.jdialog  {}
 .button-close  {float:none!important;text-decoration:none;
-    position:absolute;top:12px;right:15px;
-    color:var(--color-white) !important;background-color:var(--color-hardgrey)!important;text-align:center;
-    opacity:.9;border:2px solid var(--color-black);width:35px;height:35px;border-radius:50%;
+    position:absolute;top:15px;right:15px;
+    color:var(--color-white) !important;background-color:var(--color-black)!important;text-align:center;
+    opacity:1;width:37px;height:37px;border-radius:50%;border:3px solid var(--color-black);
 }
 .button-close:hover, .button-close:focus {background-color:var(--color-black)!important;color:var(--color-white)!important;border-color:var(--color-white);}
 
@@ -158,15 +159,16 @@ section.jdialog  {}
 /* Dialogs */
 .dialog,
 .jdialog,
-.dialog-block { background: #fff;border-color: #ddd;padding:2%;border-radius:8px;
-	box-shadow:  0 0 20em 30em rgba(255,255,255,.9);color: inherit;display: block;
-	height: auto;margin: 0;padding-top:32px;position: fixed;width: auto;
-    z-index: 950;top: 4%;left: 4%;width: 92%;height:90%;}
+.dialog-block { background: #fff;padding:2%;border-radius:32px;
+	box-shadow:  0 0 20em 30em rgba(5,5,5,.9);color: inherit;display: block;
+	height: auto;margin: 0;padding:12px;position: fixed;width: auto;
+    z-index: 950;top: 1%;left: 1%;width: 98%;height:90%;height:91%;opacity:0.97!important;}
 .dialog { display: none; }
 .open-dialog:checked ~ .dialog { display: block; }
 .dialog-block.fullscreen,
 .dialog-block.top,
 .dialog-block.bottom { width: 100% !important;}
+.jdialog iframe {border-radius:23px;}
 
 @media (max-width: 768px) {
 	[class*='dialog'] {
