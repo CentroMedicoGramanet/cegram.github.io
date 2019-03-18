@@ -90,7 +90,10 @@ padding-left:32px;padding-right:32px;padding-top:6px;color:var(--color-softgrey)
 #footer-home img {max-width:420px;height:150px;margin-bottom:-30px;}
 #page-footer p {}
 
-/* Modal expander */ 
+/* Modal expander */
+#mapa a.button-modal {background-color:var(--color-blue);padding:16px 19px 16px 19px;border-radius:32px;
+    width:172px;height:172px;}
+#mapa iframe {margin-bottom:12px;}
 div.jdialog {background-color:var(--color-black);color:var(--color-white);opacity:0.94;
     font-weight:lighter ;letter-spacing: 0.069em; }
 div.jdialog p {font-size:100%;letter-spacing: 0.032em}
@@ -158,7 +161,7 @@ section.jdialog  {}
 .dialog-block { background: #fff;border-color: #ddd;padding:2%;border-radius:8px;
 	box-shadow:  0 0 20em 30em rgba(255,255,255,.9);color: inherit;display: block;
 	height: auto;margin: 0;padding-top:32px;position: fixed;width: auto;
-    z-index: 950;top: 16%;left: 10%;width: 80%;}
+    z-index: 950;top: 4%;left: 4%;width: 92%;height:90%;}
 .dialog { display: none; }
 .open-dialog:checked ~ .dialog { display: block; }
 .dialog-block.fullscreen,
