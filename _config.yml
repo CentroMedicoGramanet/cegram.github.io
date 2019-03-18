@@ -1,5 +1,5 @@
 # Name of your site (displayed in the header)
-name: Name Corp
+name: Centro Medico Gramanet
 
 # Short bio or description (displayed in the header)
 description: Descripció curta del Web Site
@@ -13,18 +13,18 @@ icon: icon-heart
 premis: Text Destacat per a la pagina principal
 
 # Horari
-dilluns: de 13h a 16h
-dimdium: De 13h a 16h / de 19h a 23h
+mañanas: de 12h a 14h
+tardes: De 16h a 19:30h
 
 # Seu Principal
-city: Ciutat Pral.
-location: C/ nom del carrer, 08911 Població, Ciutat
-phone: +34 933 80 00 00
+city: Santa Coloma de Gramanet
+location: c/ Llorenç Serra, 5, Entlo. 3ª, Santa Coloma de Gramanet
+phone: +34 933 86 54 44
 email: correu@gmail.com
 
 # Seu Alternativa
 city2: Ciutat Alt.
-location2: C/ nom del carrer, 08911 Població, Ciutat
+location2: c/ nom del carrer, 08911 Població, Ciutat
 phone2: +34 933 80 00 01
 email2: correu2@gmail.com
 
