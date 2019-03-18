@@ -1061,7 +1061,7 @@ nav label:hover {
 .cat-post h6 a {color:var(--color-softstarred);text-decoration: none;}
 
 #mapa {padding-top:0px;color:var(--color-hardgrey);
-	border-top:6px solid var(--color-blue);height:300px;}
+	border-top:6px solid var(--color-blue);}
 
 /* Red theme */
 

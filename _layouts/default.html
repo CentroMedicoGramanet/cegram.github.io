@@ -24,10 +24,6 @@
 
   <body>
 	
-	<!-- Theme inputs (invisibles) -->		
-	<input type="radio" id="theme-light" name="theme" aria-hidden="true" hidden>
-	<input type="radio" id="theme-red" name="theme" aria-hidden="true" hidden>
-	
 	<!-- Page content -->
 	<div class="page" id="page">
 	{% include partials/navigation/nav.html %}
@@ -51,25 +47,33 @@
     {% include partials/footer.html %}
 	</div>
 
-	<!-- Tools switcher -->  		
-  	<div id="tools-switcher">
-  		<label for="tools-check" data-title="Modos" class="pophover">+</label>
-  	</div>
-	<!-- Tools nav -->
-	<input type="checkbox" id="tools-check" name="Modos" aria-hidden="true" hidden>
-	<nav id="tools-nav">
-		<label for="tools-check" id="label-tools" data-title="Cerrar" class="pophover">x</label>
-		<label for="theme-dark" id="label-dark" data-title="Modo Oscuro" class="pophover"></label>
-		<label for="theme-soft" id="label-soft" data-title="Modo Rojo" class="pophover"></label>
-		<label for="theme-light" id="label-light" data-title="Modo Claro" class="pophover"></label>
-	</nav>
-	
+		<!-- Out of page
+		================================================== -->
+		
+    {% include partials/dialog.html %}  
+		
     <!-- Scripts
     ================================================== -->
   	<script src="{{ site.baseurl }}/hipertextos/js/jquery.js"></script>
-  	<script src="{{ site.baseurl }}/hipertextos/js/icons.js"></script>
   	<script src="{{ site.baseurl }}/hipertextos/js/anime.js"></script>
-
+  	<script src="{{ site.baseurl }}/hipertextos/js/icons.js"></script>
+	<script>
+		// Collapse & accordion
+		$('.jcollapser .jcollapsed').toggleClass('closed');
+		$('.jcollapser .jtrigger').click(function(e){
+			$(this).next('.jcollapsed').toggleClass('closed anime anm-fadeIn').siblings('.jcollapsed:visible').toggleClass('closed anime anm-fadeIn');
+		});
+ 		// Notification
+		$('.notification .button-close').click(function(){
+			$(this).closest('.notification').toggleClass('closed');
+		});
+		// Dialogs
+		$('.button-modal, .jdialog .button-close').click(function(){
+			var currentDialog = $(this).attr('href');
+			$(currentDialog).toggleClass('closed anime anm-moveFromTop');
+		});		
+	</script>
+	
     {% include analytics.html %}
   </body>
 </html>
