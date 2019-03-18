@@ -1060,6 +1060,9 @@ nav label:hover {
 #page #page-nav {background-color: var(--color-soft-grey);color:var(--color-softstarred);border-bottom:0px solid transparent;}
 .cat-post h6 a {color:var(--color-softstarred);text-decoration: none;}
 
+#mapa {padding-top:0px;color:var(--color-hardgrey);
+	border-top:6px solid var(--color-blue);height:300px;}
+
 /* Red theme */
 
 #theme-soft:checked ~ #page,
@@ -2711,5 +2714,6 @@ dialog,
 }
 
 #site-logo a:visited {color:var(--color-white)!important;}
+
 
 
