@@ -91,9 +91,9 @@ padding-left:32px;padding-right:32px;padding-top:6px;color:var(--color-softgrey)
 #page-footer p {}
 
 /* Modal expander */
-#mapa a.button-modal {background-color:var(--color-blue);padding:28px 18px 15px 17px;border-radius:50px;
-    width:52px;height:52px;}
-#mapa a.button-modal img {max-width:32px;}
+
+#mapa a.button-modal {background-color:var(--color-blue);padding:28px 18px 15px 17px;border-radius:50px;}
+#mapa a.button-modal img {max-width:30px;}
 #mapa iframe {margin-bottom:12px;}
 div.jdialog {background-color:var(--color-black);color:var(--color-white);opacity:0.94;
     font-weight:lighter ;letter-spacing: 0.069em; }
