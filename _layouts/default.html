@@ -61,7 +61,7 @@
 		// Collapse & accordion
 		$('.jcollapser .jcollapsed').toggleClass('closed');
 		$('.jcollapser .jtrigger').click(function(e){
-			$(this).next('.jcollapsed').toggleClass('closed anime anm-rotateCubeRightIn').siblings('.jcollapsed:visible').toggleClass('closed anime anm-rotateCubeRightIn');
+			$(this).next('.jcollapsed').toggleClass('closed anime anm-fadeIn').siblings('.jcollapsed:visible').toggleClass('closed anime anm-fadeIn');
 		});
  		// Notification
 		$('.notification .button-close').click(function(){
@@ -70,7 +70,7 @@
 		// Dialogs
 		$('.button-modal, .jdialog .button-close').click(function(){
 			var currentDialog = $(this).attr('href');
-			$(currentDialog).toggleClass('closed anime anm-rotateCubeRightIn');
+			$(currentDialog).toggleClass('closed anime anm-moveFromTop');
 		});		
 	</script>
 	
