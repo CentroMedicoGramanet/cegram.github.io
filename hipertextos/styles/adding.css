@@ -70,6 +70,11 @@ hr.lines {border-bottom:thin solid var(--color-grey);}
 }
 .cover-front h2, .cover-front h3 {margin:0px;}
 
+.obtenciones {color:var(--color-blue) ;border:2px solid var(--color-blue);border-radius:21px;margin-bottom:69px;}
+.obtenciones h2 small {font-size:30px;letter-spacing: -0.02em;}
+.obtenciones h2 {line-height:1.3em;font-size:69px;font-weight: normal;}
+.obtenciones h2 b {font-weight: lighter;}
+
 /* Buttons hexagons */
 #icons em a {background-color:transparent ;background-image: url(/hipertextos/brand/hexagon.png);background-repeat:no-repeat  ;background-size:100px;width:100px;height:100px;border:none!important;
 padding-left:35px;padding-right:35px;}
