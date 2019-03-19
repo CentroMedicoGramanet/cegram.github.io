@@ -86,7 +86,7 @@ padding-left:26px;padding-right:26px;padding-top:26px;color:var(--color-blue);bo
 .cited h4 div img {float:none;	height: 42px;);margin: -.25em .5em -.6em -.4em;width: 42px;}
 .cited h4 .red {background:var(--color-red);margin-left:18px;}
 .cited h4 div {display:inline;padding-left:15px;padding-right:15px;border-radius:3px;color:var(--color-soft);}
-.cited {background: var(--color-softgrey); padding-top:23px;padding-bottom:2px; }
+.cited {background: var(--color-softgrey); padding-top:23px;padding-bottom:22px;min-height:160px; }
 #mapa .cited {margin-top:-21px!important;margin-bottom:1em;}
 
 /* Footer */ 
@@ -103,7 +103,7 @@ padding-left:26px;padding-right:26px;padding-top:26px;color:var(--color-blue);bo
 
 /* Modal expander */
 
-#mapa a.button-modal {background-color:var(--color-white);color:var(--color-grey) ;border:2px solid var(--color-grey);
+#mapa a.button-modal {background-color:transparent;color:var(--color-grey) ;border:2px solid var(--color-grey);
     text-decoration:none;padding:12px;border-radius:5px;}
 #mapa a.button-modal:hover {background-color:var(--color-blue);color:var(--color-white);border:2px solid var(--color-blue)}
 #mapa .button-modal svg {width:15px;color:var(--color-grey);}
