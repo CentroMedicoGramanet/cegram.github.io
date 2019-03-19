@@ -47,8 +47,8 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
     color:var(--color-white) ;background-color:var(--color-blue);}
 #blue-front h5 {line-height: 1em;font-weight: lighter;letter-spacing: 0.02em}
 #blue-front h5 svg {max-width: 23px;}
+#blue-front svg {max-width:75%;}
 
-#blue-front svg {}
 /* Body & co */
 hr.lines {border-bottom:thin solid var(--color-grey);}
 .detalls a {padding-left:32px;padding-right:32px;}
