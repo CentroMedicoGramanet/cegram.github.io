@@ -42,6 +42,11 @@ background-image: url("/hipertextos/brand/cover-blur.jpg");image-rendering: cris
 #page-header div em a i svg {width:15px;padding:3px 0 0 0;}
 #page-header div em a:hover {text-decoration:none;color:var(--color-white) ;background:var(--color-blue);}
 
+/* Post-Header*/
+#blue-front {text-align:center ;padding:23px 0px 12px 0px;
+    color:var(--color-white) ;background-color:var(--color-blue);}
+#blue-front h5 {line-height: .6em;font-weight: lighter;letter-spacing: 0.02em}
+
 /* Body & co */
 hr.lines {border-bottom:thin solid var(--color-grey);}
 .detalls a {padding-left:32px;padding-right:32px;}
