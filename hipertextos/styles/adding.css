@@ -43,12 +43,12 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 #page-header div em a:hover {text-decoration:none;color:var(--color-white) ;background:var(--color-blue);}
 
 /* Post-Header*/
-#blue-front {padding:23px 0px 12px 0px;min-height:100%;
+#blue-front {padding:36px 0px 1px 0px;min-height:100%;
     color:var(--color-white) ;background-color:var(--color-blue);}
 #blue-front h6 {line-height: 1em;font-weight: lighter;letter-spacing: 0.02em}
 #blue-front h6 svg {max-width: 20px;margin-top:-23px;border:none!important;}
 #blue-front svg {max-width:70%;border-radius:32px;}
-
+#blue-front hr  {margin:3px;padding:0px;}
 /* Body & co */
 hr.lines {border-bottom:thin solid var(--color-grey);}
 .detalls a {padding-left:32px;padding-right:32px;background-color:var(--color-blue);}
