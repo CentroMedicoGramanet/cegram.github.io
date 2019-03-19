@@ -57,7 +57,7 @@ hr.lines {border-bottom:thin solid var(--color-grey);}
 #horari, #domicili {color:var(--color-blue);}
 #horari h4, #domicili h5 {margin-bottom:2px;}
 #horari h4, #horari h3 {text-align:left;}
-#domicili h5, #domicili h3 {text-align:left;}
+#domicili h5, #domicili h3 {text-align:right;}
 #domicili h5 {font-weight: normal;font-size:1.2em;line-height:1.2em;}
 
 #layout em a {background-color:var(--color-soft-black);color:var(--color-soft);border-radius:6px;padding-left:32px;padding-right:32px;}
