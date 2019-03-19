@@ -1,7 +1,7 @@
 ---
 layout: about
-title: Contacte
-permalink: /contacte/
+title: Contacto
+permalink: /contacto/
 footmap: yes
 
 ---
