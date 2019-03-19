@@ -31,7 +31,7 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 #page-header h1 {font-weight: normal ;font-size:2.3em; color:var(--color-blue); }
 #page-header h2 img {width:512px;height:100%;float:none;margin:-25px 0 0 0;}
 #page-header h2 {text-align:center;}
-#page-header h5 {font-size: 1.4em;font-weight: normal}
+#page-header h5 {font-weight: lighter }
 #cover-logo {max-width:512px;height:123px;margin-bottom:0px;}
 #page-header div em a {color:var(--color-blue);font-size:16px;
     letter-spacing:0.032em ;padding:12px 14px;border-radius:4px;
@@ -46,8 +46,8 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 #blue-front {padding:23px 0px 12px 0px;min-height:100%;
     color:var(--color-white) ;background-color:var(--color-blue);}
 #blue-front h6 {line-height: 1em;font-weight: lighter;letter-spacing: 0.02em}
-#blue-front h6 svg {max-width: 23px;}
-#blue-front svg {max-width:75%;}
+#blue-front h6 svg {max-width: 20px;margin-top:-23px;border:none!important;}
+#blue-front svg {max-width:70%;border-radius:32px;}
 
 /* Body & co */
 hr.lines {border-bottom:thin solid var(--color-grey);}
