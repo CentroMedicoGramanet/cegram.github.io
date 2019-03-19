@@ -6,7 +6,7 @@ description: Certificados médicos y psicotécnicos
 
 alternativa: Permiso de conducir y armas
 
-icon: icon-heart
+obtenciones: 35
 
 premis: Text Destacat per a la pagina principal
 
@@ -15,6 +15,17 @@ info1: Sin cita previa
 info2: Sin fotos, las hacemos aquí
 info3: Revisión médica en 15 min
 info4: Tu Carnet renovado al momento
+
+# Permisos
+p1: Coche
+p2: Moto
+p3: Camión
+p4: Náutica
+p5: Depotivos
+p6: Seguridad privada
+p7: Animales peligrosos
+p8: Permiso de armas
+p9: Certificados médicos
 
 # Horari
 mananas: de 12h a 14h
