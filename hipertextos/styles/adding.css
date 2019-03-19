@@ -7,7 +7,7 @@ main {font-family:var(--font-default), sans-serif;padding-top:36px;margin-bottom
 body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;-o-hyphens:none;hyphens:none;word-wrap:none;}
 
 /* Nav */
-#site-nav {font-family:var(--font-default) ;opacity:0.95;background-image: linear-gradient(white, var(--color-soft)) !important;border-bottom: none;font-size: 15px;
+#site-nav {font-family:var(--font-default) ;opacity:0.95;background-image: linear-gradient( #fff, rgba(230,242,255,1)) !important;border-bottom: none;font-size: 15px;
     line-height:25px;color: var(--color-blue);padding-top:12px;padding-bottom:12px;}
 #site-nav a, #site-nav strong label {color:var(--color-hardgrey)!important;font-weight: normal ;border: none;}
 #site-nav strong label {line-height:25px;font-size: 15px;letter-spacing: 0.075em}
@@ -22,9 +22,9 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 #site-nav em a:visited {color:var(--color-grey)!important ;}
 #site-nav em a:hover {color:#fafafa!important;fill:#fafafa!important;stroke:#fafafa!important;}
 #site-logo a, #site-logo a:hover, #site-logo a:visited {color:var(--color-white)!important;}
-#site-nav .site-logo {z-index:1;overflow:hidden;width:65px;
+#site-nav .site-logo {z-index:1;overflow:hidden;width:55px;
     padding-left:0px;padding-top:0;height:100%;margin-top:0px;}
-#site-nav img {max-height:100%;min-width:100%;width:60px;height:32px;margin-top:10px;}
+#site-nav img {max-height:100%;min-width:100%;width:55px;height:29px;margin-top:13px;}
 
 /* Header cover*/
 #page-header {color:var(--color-blue);letter-spacing: 0.0012em;}
@@ -90,15 +90,15 @@ padding-left:26px;padding-right:26px;padding-top:26px;color:var(--color-blue);bo
 .cited {border:thin solid var(--color-softgrey);border-radius:12px;}
 
 /* Footer */ 
-#page-footer {background:#222;color:#999;box-shadow: inset 0 0 56px rgba(0, 0, 0, .32);bottom: 0px;width: 100%;}
+#page-footer {background:var(--color-blue) ;color:#999;box-shadow: inset 0 0 56px rgba(0, 0, 0, .32);bottom: 0px;width: 100%;}
 #page-footer em small a {border: thin solid #222;}
 #page-footer h5 a {text-decoration:none;font-size:0.9em;font-weight: lighter ;letter-spacing: 0.05em;}
 
 #page-footer .footer-logo  {width:380px;}
-#page-footer .thumb-6 p {line-height:1.3em;font-size:0.9em;font-weight:lighter;padding-bottom:69px;}
+#page-footer .thumb-6 p {line-height:1.3em;font-size:0.9em;font-weight:lighter;padding-bottom:12px;}
 #page-footer em a {background:transparent;}
 #page-footer em a:hover, #page-footer em a:focus {color:var(-color-white);}
-#footer-home img {max-width:420px;height:150px;margin-bottom:-30px;}
+#footer-home img {max-width:203px;height:123px;margin-bottom:0px;}
 #page-footer p {}
 
 /* Modal expander */
