@@ -1,8 +1,10 @@
 /* by Isard Miralles  ADDING EXTRA to About - CSS */
 /* ------------------------------------------------------------ Resets */
 
-.page-header {
-    background-color:var(--color-black)!important;border:1px solid #000!important;}
+.cover-page .page-header {
+	background-image: url("/img/texture/dark.png");background-size: 180px 180px;background-repeat: repeat;image-rendering: crisp-edges;
+	border-bottom:8px solid var(--color-red);overflow:hidden;
+}
 .cover-page #dark {text-align:center;z-index:10;}
 .cover-page #dark a {color:var(--color-white);font-size:26px;line-height:21px;font-weight:lighter;}
 .cover-page #dark a:hover {text-decoration:none;} 
