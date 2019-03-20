@@ -55,11 +55,12 @@ hr.lines {border-bottom:thin solid var(--color-grey);}
 #layout i svg {width: 18px;position:absolute ;left:49.3%;padding-bottom:32px;}
 #horari i svg, #domicili i svg {width:132px;position:relative;left:0;color:var(--color-white);}
 #horari, #domicili {color:var(--color-blue);}
-#horari h4, #domicili h5 {margin-bottom:2px;}
-#horari h4 {text-align:left;}
-#domicili h5, #domicili h3 {text-align:left;}
-#domicili h5 {font-weight: normal;font-size:1.2em;line-height:1.2em;}
-#domicili i svg {}
+#horari h3 {margin-bottom:2px;}
+#horari h3 {text-align:left;}
+#domicili {}
+#domicili h5 {font-weight: normal;font-size:1.1em;line-height:1em;
+    margin-bottom:0px;margin-top:-32px;}
+#domicili i svg {padding:21%;margin-bottom:-32px;}
 
 #layout em a {background-color:var(--color-soft-black);color:var(--color-soft);border-radius:6px;padding-left:32px;padding-right:32px;}
 #layout em a:hover, #layout em a:active, #layout em a:focus {background-color:var(--color-white);color:var(--color-black);}
