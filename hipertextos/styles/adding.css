@@ -40,7 +40,9 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
     background-size: cover;background-repeat: no-repeat;
 }
 #page-header div em a i svg {width:15px;padding:3px 0 0 0;}
-#page-header div em a:hover {text-decoration:none;color:var(--color-white) ;background:var(--color-blue);}
+#page-header div em a:hover, #page-header div em a:visited:hover  {text-decoration:none;color:var(--color-white) ;background:var(--color-blue);}
+#page-header div em a:visited, #page-header div em a i svg:visited {
+    color:var(--color-blue) ;fill:var(--color-blue);stroke:var(--color-blue);}
 
 /* Post-Header*/
 #blue-front {padding:36px 0px 1px 0px;min-height:100%;
