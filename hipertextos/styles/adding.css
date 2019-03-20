@@ -28,10 +28,10 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 
 /* Header cover*/
 #page-header {color:var(--color-blue);letter-spacing: 0.0012em;}
-#page-header h1 {font-weight: normal ;font-size:2.3em; color:var(--color-blue); }
+#page-header h1 {font-weight: normal ;font-size:2.1em; color:var(--color-blue); }
 #page-header h2 img {width:512px;height:100%;float:none;margin:-25px 0 0 0;}
 #page-header h2 {text-align:center;}
-#page-header h5 {font-weight: lighter }
+#page-header h5 {font-weight: normal ;font-size:1.3em;line-height:1.6em; }
 #cover-logo {max-width:512px;height:123px;margin-bottom:0px;}
 #page-header div em a {color:var(--color-blue);font-size:16px;
     letter-spacing:0.032em ;padding:12px 14px;border-radius:4px;
@@ -47,8 +47,8 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 /* Post-Header*/
 #blue-front {padding:36px 0px 1px 0px;min-height:100%;
     color:var(--color-white) ;background-color:var(--color-blue);}
-#blue-front h6 {line-height: 1em;font-weight: lighter;letter-spacing: 0.02em}
-#blue-front h6 svg {max-width: 20px;margin-top:-23px;border:none!important;}
+#blue-front h6 {line-height: 1.1em;font-size:1.1em;font-weight: lighter;letter-spacing: 0.05em}
+#blue-front h6 svg {max-width: 25px;margin-top:-20px;border:none!important;}
 #blue-front svg {max-width:70%;border-radius:32px;}
 #blue-front hr  {margin:3px;padding:0px;}
 /* Body & co */
