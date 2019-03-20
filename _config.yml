@@ -1,11 +1,9 @@
 # Name of your site (displayed in the header)
-name: Centro Medico Gramenet
+name: Centro Médico Gramenet
 
 # Short bio or description (displayed in the header)
 description: Certificados médicos y psicotécnicos
-
 alternativa: Permiso de conducir y armas
-
 obtenciones: 35
 
 # Info
@@ -56,8 +54,8 @@ section4:
 section4d:
 section5:
 section5d:
-section6: Contacte
-section6d: Més sobre nosaltres
+section6: Nosotros
+section6d: Más sobre nosotros
 
 
 # Includes an icon in the footer for each username you enter
