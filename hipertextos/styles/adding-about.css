@@ -4,7 +4,7 @@
 .cover-page .page-header {
     border-bottom:8px solid var(--color-blue);}
 #contacte { letter-spacing:-0.012em ;border-radius:12px;
-	background-image: url("/hipertextos/brand/cover-blur.jpg");image-rendering: crisp-edges;
+	background-image: url("/hipertextos/brand/contacte_blur.jpg");image-rendering: crisp-edges;
 	background-position: top center;background-attachment: fixed;
     background-size: cover;background-repeat: no-repeat;
 }
