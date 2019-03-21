@@ -1,7 +1,9 @@
 /* by Isard Miralles  ADDING EXTRA to CARTA - CSS */
 
-#page-header.carta-header {background-image: url("/hipertextos/brand/carta.jpg");background-color:var(--color-hardgrey);font-family:'Lato', sans-serif; text-transform: uppercase; border:none;height: 360px;padding-top:180px;background-position: center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;
-    border:none;color: #fafafa;letter-spacing: .2em;overflow: hidden;text-align: center;}
+#page-header.carta-header {background-image: url("/hipertextos/brand/carta.jpg");background-color:var(--color-hardgrey);font-family:var(--font-default), sans-serif; text-transform: uppercase; border:none;
+    height: 260px;padding-top:100px;background-position: center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;
+    border:none;letter-spacing: .02em;overflow: hidden;text-align: center;}
+#page-header.carta-header h1 {font-weight: lighter ;font-size:2.2em;color:var(--color-white);}
 #page-nav div{height:90px;}
 #page-nav a img {width:69px;height:69px;opacity:.69;}
 #page-nav a:hover {background:var(--color-soft);}
