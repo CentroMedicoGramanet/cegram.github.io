@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ca-ES">
+<html lang="es-ES">
   <head>
     <meta name="encoding" charset="utf-8" />
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/styles/adding.css" />
     {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/styles/adding-carta.css" />{% endif %}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/styles/anime.css" />
+  	{% if page.lightbox %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/css/lightbox.min.css" />{% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,300,100,900" rel="stylesheet">
     {% include favicons.html %}
@@ -57,6 +58,7 @@
   	<script src="{{ site.baseurl }}/hipertextos/js/jquery.js"></script>
   	<script src="{{ site.baseurl }}/hipertextos/js/anime.js"></script>
   	<script src="{{ site.baseurl }}/hipertextos/js/icons.js"></script>
+  	{% if page.lightbox %}<script src="{{ site.baseurl }}/hipertextos/js/lightbox.min.js"></script>{% endif %}
 	<script>
 		// Collapse & accordion
 		$('.jcollapser .jcollapsed').toggleClass('closed');
