@@ -6,6 +6,11 @@ lightbox: true
 
 ---
 
+<header  id="page-header" class="carta-header anm-moveFromTop">
+	<div>
+		<h1 class="anm-moveFromBottomFade delay-100">{{ page.title }}</h1>
+	</div>
+</header>
 <main id="page-main" role="main">
 	<div id="layout" class="listed">
     	<h3 class="anm-moveFromLeftFade delay-2000"><img src="{{ site.baseurl }}/hipertextos/svg/printer.svg" class="img-icon"><u>Impressions</u></h3>
