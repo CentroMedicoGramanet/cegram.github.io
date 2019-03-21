@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: gallery
 title: Galeria
 permalink: /fotos/
 galleria: true
@@ -13,7 +13,7 @@ galleria: true
 	{% assign image_files = site.static_files | where: "image", true %}
 	{% for image in image_files %}
 	<article>
-    	<a href="{{ site.baseurl }}/assets/bio/{{ image.name }}" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/bio	/{{ image.name }}" alt="El centro médico"></a>
+    	<a href="{{ site.baseurl }}/assets/bio/{{ image.name }}" data-lightbox="roadtrip"><img class="imagens" src="{{ site.baseurl }}/assets/bio/{{ image.name }}" alt="El centro médico"></a>
 	</article>
 	{% endfor %}
 		</section>
