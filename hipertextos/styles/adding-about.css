@@ -24,6 +24,8 @@
 }
 #contacte h3 {text-align:left;line-height: 1.4em}
 
+#about p {text-align:justify;padding-right:12px;padding-left:12px;}
+
 .cover-page #dark {text-align:center;z-index:10;}
 .cover-page #dark a {color:var(--color-white);font-size:26px;line-height:21px;font-weight:lighter;}
 .cover-page #dark a:hover {text-decoration:none;} 

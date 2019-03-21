@@ -5,7 +5,7 @@ permalink: /nosotros/
 footmap: yes
 historia: Historia
 servicios: Certificados médicos al momento, sin cita previa podrás renovarte el carnet de conducir, tener la revisión médica para la obtención del carnet i otros certificados médicos como permiso de armas, perros peligrosos, náuticos, esportivos, certificados oficiales…
-profesionales: El equipo de Centro Médico cuenta con médicos generales, psicólogos, oftalmólogos y auxiliares que trabajan diariamente para satisfacer nuestros clientes. Agradecemos su fidelidad al centro y hacer lo posible para que tengan una muy buena atención. Gracias por confiar en nosotros.
+profesionales: El equipo de Centro Médico cuenta con médicos generales, psicólogos, oftalmólogos y auxiliares que trabajan diariamente para satisfacer nuestros clientes. Agradecemos su fidelidad al centro y hacer lo posible para que tengan una muy buena atención.
 
 
 ---
