@@ -44,10 +44,10 @@ avatar: https://avatars0.githubusercontent.com/u/36928139?s=460&v=4
 logo: ./hipertextos/brand/logo.png
 
 # Sections
-section1: Certificados
-section1d:
+section1: Revisiones
+section1d: Tipos de Certificados y Preguntas frecuentes
 section2: Galeria
-section2d: Visita guiada
+section2d: galeria de Fotos del Centro
 section3:
 section3d:
 section4:
@@ -55,7 +55,7 @@ section4d:
 section5:
 section5d:
 section6: Nosotros
-section6d: Más sobre nosotros
+section6d: Más Información
 
 
 # Includes an icon in the footer for each username you enter
