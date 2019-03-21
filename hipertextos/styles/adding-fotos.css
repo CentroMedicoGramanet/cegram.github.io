@@ -44,6 +44,4 @@ main { margin-bottom: 0px;z-index: 1;background-color: var(--color-white);
 @media (max-width: 432px) {
 	#page-header.carta-header { height: 150px;padding-top:45px;}
     #page-header.carta-header, #foot-cover.cover {background-image: url("/img/texture/grey-geek.png");background-size:198px 200px;background-repeat: repeat;color:var(--color-grey);}
-
-
 }
