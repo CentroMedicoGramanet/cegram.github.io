@@ -13,24 +13,15 @@
 .listed {padding:0!important;}
 .listed img {	margin:0!important;padding:0!important;	}
 .listed article { border:none;width: 100%;display: block;display: inline-block;margin:0!important;padding:0!important;-webkit-column-break-inside: avoid;-moz-column-break-inside:avoid;-moz-page-break-inside:avoid;page-break-inside: avoid;}
-em small #go-up { background:rgba(0,0,0,.1);padding:15px;border-radius:50%; }
-em small #go-up:hover {background:rgba(0,0,0,.3); }
-/* Footer fixed */
-main { margin-bottom: 232px;z-index: 1;background-color: var(--color-white);
-    box-shadow:0 75px 60px rgba(0,0,0,.32);
-}
 
+/* Footer fixed */
+main { margin-bottom: 0px;z-index: 1;background-color: var(--color-white);
+}
 @media (max-width: 1250px) {
-    #rollitos h4.headline {font-size:1.6em;}
-    #rollitos p {font-size:18px ;}
     #page-header.carta-header {height: 280px;padding-top:130px;}
 }
 @media (max-width: 1242px) {
     #page-header.carta-header {height: 260px;padding-top:90px;}
-    #rollitos h4.headline {font-size:1.4em;}
-    #rollitos p {font-size:16px ;}
-	button {background-size:90px;width:90px;height:90px;min-width:90px;
-    min-height:90px;font-size:26px;letter-spacing: 0.06em;}
     .thumb-8 {width:58.3333333333%;}
     .thumb-1 {max-width:16.6666666666%;}
 }
@@ -43,23 +34,9 @@ main { margin-bottom: 232px;z-index: 1;background-color: var(--color-white);
     .legends p {font-size: 12px;}
     #page-nav div{height:69px;}
 	#page-nav a img {width:52px;height:52px;}
-	button {background-size:80px;width:80px;height:80px;min-width:80px;
-    min-height:80px;font-size:26px;letter-spacing: 0.06em;}
-    #rollitos h4.headline {font-size:1.0em;}
-    #rollitos-cart p, #pures-cart p, #cremes-cart p, #amanides-cart p, #postres-cart p {
-        font-size:13px ;line-height:1.8em;}
     .thumb-3 {width:70%;}
     .thumb-8 {width:70%;margin-top:-30px;}
     .thumb-1 {width:20%;margin-top:-30px;}
-    h6.title {display:none;visibility: hidden ;}
-    #salsa .thumb-6 {width:100%;margin-bottom:32px;}
-    #salsa p {font-size: 17px;}
-    #salsa h6 {font-size:32px;margin-bottom:8px;}
-    #menu .thumb-6, #begudes .thumb-6 {width:100%;}
-    #menu .thumb-6, #begudes .thumb-6 {width:100%;}
-    #begudes h5, #begudes h6 {line-height:1.2em;padding:0px;}
-    #begudes h5 {margin-top:15px;}
-    #begudes-cart p {font-size:15px ;line-height:1.5em;padding-top:12px;padding-bottom:6px;}
     #foot-cover h5 svg {padding:12px;}
 	#foot-cover h5 {margin-bottom:12px!important;}
 	#foot-cover h4 {font-size:1.9em;line-height:1em;margin-bottom:48px;}
