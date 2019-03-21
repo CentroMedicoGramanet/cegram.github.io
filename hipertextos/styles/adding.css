@@ -49,6 +49,7 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 	background-position: top center;background-attachment: fixed;
     background-size: cover;background-repeat: no-repeat;
 }
+#contacte h5 {text-align:left;margin-bottom:6px;}
 
 /* Post-Header*/
 #blue-front {padding:36px 0px 1px 0px;min-height:100%;
