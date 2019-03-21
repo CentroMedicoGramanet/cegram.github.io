@@ -10,4 +10,4 @@ profesionales: El equipo de Centro Médico cuenta con médicos generales, psicó
 
 ---
 
-Empezamos en 1984 siempre con los valores de empresa de ofrecer un buen servicio y profesionalidad. Es por eso que después de tantos años continuamos posicionados como Centro Médico nº1 de Artigas. Actualmente hemos trasladado y ampliado el centro donde ofrecemos más especialidades y unas nuevas instalaciones.
+Empezamos en 1984 siempre con los valores de empresa de ofrecer un buen servicio y profesionalidad. Es por eso que después de tantos años continuamos posicionados como Centro Médico nº1 de Artigas.
