@@ -5,13 +5,13 @@
     border-bottom:8px solid var(--color-blue);}
 
 .cover-page #page-header em a {color:var(--color-blue)!important;
-    font-size:94%!important;font-sze:1em;
-    border:thin solid rgba(100,130,155,0.26);background-image:none;
+    font-sze:1.5em;
+    border:thin solid transparent;
+    background-image:none;
     letter-spacing:0.032em ;font-weight: normal!important;
     margin:2px;background-color:transparent;
     padding:18px;border-radius:2px;min-width:100%!important;
 }
-.cover-page #page-header .thumb-6  {}
 #page-header em a:hover {color:var(--color-white)!important;
     font-size:100%!important;
     border:thin solid var(--color-blue);
