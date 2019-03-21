@@ -3,20 +3,24 @@
 
 .cover-page #page-header {
     border-bottom:8px solid var(--color-blue);}
-h5#page-header a {width:100%;}
-.cover-page #page-header h5 a {color:var(--color-blue)!important;font-size:80%!important;font-sze:1em;
-    border:thin solid var(--color-blue);margin-bottom:1px;
+
+.cover-page #page-header em a {color:var(--color-blue)!important;
+    font-size:94%!important;font-sze:1em;
+    border:thin solid rgba(100,130,155,0.26);background-image:none;
     letter-spacing:0.032em ;font-weight: normal!important;
-    padding:12px 14px;border-radius:4px;min-width:100%!important;
+    margin:2px;background-color:transparent;
+    padding:18px;border-radius:2px;min-width:100%!important;
 }
-#page-header h5 a:hover {color:var(--color-blue)!important;font-size:90%!important;
+.cover-page #page-header .thumb-6  {}
+#page-header em a:hover {color:var(--color-white)!important;
+    font-size:100%!important;
     border:thin solid var(--color-blue);
-    padding:12px 14px;border-radius:8px;
 }
 #contacte { letter-spacing:-0.012em ;border-radius:12px;
 	background-image: url("/hipertextos/brand/contacte_blur.jpg");image-rendering: crisp-edges;
 	background-position: top center;background-attachment: fixed;
     background-size: cover;background-repeat: no-repeat;
+    border-bottom:4px solid var(--color-blue);}
 }
 #contacte h3 {text-align:left;line-height: 1.4em}
 
