@@ -44,6 +44,12 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 #page-header div em a:visited, #page-header div em a i svg:visited {
     color:var(--color-blue) ;fill:var(--color-blue);stroke:var(--color-blue);}
 
+#contacte { letter-spacing:-0.012em ;border-radius:12px;
+	background-image: url("/hipertextos/brand/cover-blur.jpg");image-rendering: crisp-edges;
+	background-position: top center;background-attachment: fixed;
+    background-size: cover;background-repeat: no-repeat;
+}
+
 /* Post-Header*/
 #blue-front {padding:36px 0px 1px 0px;min-height:100%;
     color:var(--color-white) ;background-color:var(--color-blue);}
