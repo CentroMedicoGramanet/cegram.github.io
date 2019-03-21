@@ -45,9 +45,9 @@ logo: ./hipertextos/brand/logo.png
 
 # Sections
 section1: Certificados
-section1d: Secció amb NavScroll
-section2:
-section2d:
+section1d:
+section2: Galeria
+section2d: Visita guiada
 section3:
 section3d:
 section4:
