@@ -133,6 +133,6 @@ exclude:
 defaults:
   -
     scope:
-      path: "assets/img"
+      path: "assets/bio"
     values:
       image: true
