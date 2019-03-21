@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: gallery
 title: Galeria
 permalink: /fotos/
 galleria: true
